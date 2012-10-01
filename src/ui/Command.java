@@ -26,6 +26,7 @@ public class Command {
   BufferedReader prevReader=null;
   BufferedReader lineReader = new  BufferedReader( new InputStreamReader( System.in ) );
 
+  
   boolean nextCommand() {
     Rational result;
     //System.out.println("\n(<number>, +, - *, /, dec, bin, hex, fixed, float, raz, canc, read <file>, help, exit)");
